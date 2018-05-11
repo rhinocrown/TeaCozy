@@ -12,14 +12,10 @@ body {
   font-size: 22px;
 }
 
- /*div {
-   border: 1px solid white;
- }*/
 header {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 0;
   z-index: 10;
   border-bottom: 1px solid white;
   height: 69px;
@@ -27,7 +23,6 @@ header {
 }
 
 .logo {
-  flex-grow: 1;
   height: 50px;
 }
 
@@ -41,6 +36,7 @@ header {
 .header-nav {
   flex-grow: 2;
   text-align: right;
+  padding-right: 10px;
 }
 
 .header-nav li {
@@ -63,7 +59,6 @@ header {
   margin: 0 auto;
   height: 1950px;
   width: 1200px;
-
 }
 
 .mission {
@@ -83,7 +78,7 @@ h2, h4 {
   padding: 10px;
 }
 
-.month {
+.tea-of-month {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -128,18 +123,10 @@ h2, h4 {
   margin-bottom: 55px;
 }
 
-/*.location-item-container {
-  display: flex;
-  justify-content: space-between;
-  height: 250px;
-  width: 980px;
-}*/
-
 .location-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
   width: 300px;
   height: 250px;
   margin-top: 0;
